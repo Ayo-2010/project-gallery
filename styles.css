@@ -1,0 +1,217 @@
+[hidden] {
+  display: none !important;
+}
+
+:root {
+  --bg: #f4f1ea;
+  --paper: #fffdf8;
+  --ink: #14161a;
+  --muted: #6d7178;
+  --line: #e3ddd1;
+  --accent: #1f4fd8;
+  --radius: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+  padding: 52px 20px 70px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app { width: min(1120px, 100%); min-width: 0; margin: 0 auto; }
+
+.head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 26px;
+  border-bottom: 1px solid var(--line);
+}
+
+.eyebrow {
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.head h1 {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  margin: 10px 0 12px;
+}
+
+.lede {
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.6;
+  max-width: 56ch;
+}
+
+.stat { text-align: right; flex-shrink: 0; }
+.stat span {
+  display: block;
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--ink);
+}
+.stat small {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin: 24px 0 16px;
+}
+
+#search {
+  flex: 1 1 240px;
+  min-width: 0;
+  font: inherit;
+  font-size: 0.84rem;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 11px 18px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+#search::placeholder { color: #a0a49f; }
+#search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(31, 79, 216, 0.12); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 7px; }
+
+.chip {
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.chip:hover { color: var(--ink); border-color: #cfc8b9; }
+.chip.is-active { background: var(--ink); border-color: var(--ink); color: #fff; }
+
+.count {
+  font-size: 0.74rem;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px 18px 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  border-color: #cfc8b9;
+  box-shadow: 0 20px 38px rgba(20, 22, 26, 0.09);
+}
+
+.card-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+
+.card-index {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #b3b7b1;
+  letter-spacing: 0.06em;
+}
+
+.card-cat {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--tag, var(--accent));
+}
+
+.card h2 { font-size: 1rem; font-weight: 600; letter-spacing: -0.01em; }
+
+.card p {
+  flex: 1;
+  font-size: 0.79rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.card-links { display: flex; gap: 14px; margin-top: 4px; }
+
+.card-links a {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+.card-links a:hover { border-color: var(--accent); }
+.card-links a.ghost { color: var(--muted); }
+.card-links a.ghost:hover { border-color: var(--muted); }
+
+.card[data-cat='Games'] { --tag: #d1452f; }
+.card[data-cat='Creative'] { --tag: #b0438f; }
+.card[data-cat='Tools'] { --tag: #1f4fd8; }
+.card[data-cat='Productivity'] { --tag: #0f8a63; }
+.card[data-cat='Learning'] { --tag: #b4791c; }
+.card[data-cat='Reference'] { --tag: #6b4fd8; }
+.card[data-cat='Web'] { --tag: #2a7f8c; }
+
+.empty {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.84rem;
+  padding: 48px 0;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+@media (max-width: 620px) {
+  body { padding: 34px 16px 50px; }
+  .head { flex-direction: column; align-items: flex-start; }
+  .stat { text-align: left; }
+  .grid { grid-template-columns: 1fr; }
+}
