@@ -24,6 +24,10 @@ const PROJECTS = [
   { name: 'tempo', title: 'Tempo', cat: 'Creative', desc: 'A metronome and guided practice trainer with a dial, tap tempo and speed sessions.' },
   { name: 'gradient-generator', title: 'Gradient Generator', cat: 'Creative', desc: 'Build CSS gradients with several stops and copy the code.' },
   { name: 'particles', title: 'Particles', cat: 'Creative', desc: 'A canvas particle playground with gravity, links and bursts.' },
+  { name: 'patchbay', title: 'Patchbay', cat: 'Creative', desc: 'A five-voice Web Audio rhythm machine with a bass sequencer, swing, presets and a live oscilloscope.' },
+  { name: 'loom', title: 'Loom', cat: 'Creative', desc: 'Generate tileable textile patterns and export them as SVG or PNG for totes and cushions.' },
+  { name: 'mosaic', title: 'Mosaic', cat: 'Creative', desc: 'Build responsive bento layouts with drag and drop, an inspector and standalone HTML export.' },
+  { name: 'choreograph', title: 'Choreograph', cat: 'Creative', desc: 'Create keyframe animations on a draggable timeline and copy the generated CSS.' },
 
   { name: 'calculator', title: 'Calculator', cat: 'Tools', desc: 'A keyboard friendly calculator with a running history.' },
   { name: 'password-generator', title: 'Password Generator', cat: 'Tools', desc: 'Strong passwords with length, symbol and strength options.' },
@@ -42,6 +46,9 @@ const PROJECTS = [
   { name: 'tip-calculator', title: 'Tip Calculator', cat: 'Tools', desc: 'Split a bill, pick a tip and round the total, receipt included.' },
   { name: 'age-calculator', title: 'Age Calculator', cat: 'Tools', desc: 'Your exact age in years, months and days, and the next birthday.' },
   { name: 'decision-wheel', title: 'Decision Wheel', cat: 'Tools', desc: 'Spin a colourful wheel to settle any choice.' },
+  { name: 'meridian', title: 'Meridian', cat: 'Tools', desc: 'Plan a meeting across eight cities with a DST-aware overlap timeline.' },
+  { name: 'foundry', title: 'Foundry', cat: 'Tools', desc: 'Build colour, type and spacing tokens with live WCAG contrast checks.' },
+  { name: 'cipher', title: 'Cipher', cat: 'Tools', desc: 'Encode, decode and analyse messages with five classical ciphers.' },
 
   { name: 'todo-list', title: 'To-Do List', cat: 'Productivity', desc: 'Tasks with filters, priorities and local storage.' },
   { name: 'notes-app', title: 'Notes App', cat: 'Productivity', desc: 'Quick notes with search, editing and autosave.' },
@@ -57,12 +64,17 @@ const PROJECTS = [
   { name: 'invoice-generator', title: 'Invoice Generator', cat: 'Productivity', desc: 'Build and print a clean invoice with live totals and tax.' },
   { name: 'ledger', title: 'Ledger', cat: 'Productivity', desc: 'An offline-first accounting workspace with CSV and JSON import and export.' },
   { name: 'field-notes', title: 'Field Notes', cat: 'Productivity', desc: 'An installable field notebook with glove mode, GPS tags and dictation.' },
+  { name: 'archivist', title: 'Archivist', cat: 'Productivity', desc: 'Write local-first notes with wiki links, backlinks, tags and a force-directed graph.' },
+  { name: 'cadence', title: 'Cadence', cat: 'Productivity', desc: 'Track habits on a twelve-week heatmap with streaks and weekday insights.' },
+  { name: 'rota', title: 'Rota', cat: 'Productivity', desc: 'Plan fourteen days of three-shift cover with auto-fill, conflict checks and CSV export.' },
 
   { name: 'quiz-app', title: 'Quiz App', cat: 'Learning', desc: 'A hundred questions across four quiz modes.' },
   { name: 'capital-quiz', title: 'Capital Quiz', cat: 'Learning', desc: 'Test your knowledge of world capitals with timers and streaks.' },
 
   { name: 'periodic-table', title: 'Periodic Table', cat: 'Reference', desc: 'All 118 elements with a detail popup for each one.' },
   { name: 'signal', title: 'Signal', cat: 'Reference', desc: 'A 92-component design system with live specimens and copyable code.' },
+  { name: 'tidepool', title: 'Tidepool', cat: 'Reference', desc: 'Explore twelve coastal species, compare them side by side and read the tide curve.' },
+  { name: 'almanac', title: 'Almanac', cat: 'Reference', desc: 'Follow sun times, moon phases, daylight curves and field notes through the year.' },
 
   { name: 'recipe-website', title: 'Recipe Website', cat: 'Web', desc: 'A responsive recipe site with cards and a shopping list.' },
   { name: 'landing-page', title: 'Landing Page', cat: 'Web', desc: 'A product page with pricing, FAQ and scroll reveals.' },
@@ -71,6 +83,8 @@ const PROJECTS = [
   { name: 'atlas-console', title: 'Atlas Console', cat: 'Web', desc: 'A dark logistics control room with live canvas charts and an incident feed.' },
   { name: 'contour', title: 'Contour', cat: 'Web', desc: 'An interactive SVG trail atlas with waypoints and elevation profiles.' },
   { name: 'portfolio-page', title: 'Portfolio Page', cat: 'Web', desc: 'A dark editorial portfolio with animated skills and a contact form.' },
+  { name: 'transit-lab', title: 'Transit Lab', cat: 'Web', desc: 'Plan metro journeys on a live SVG network with Dijkstra routing and simulated trains.' },
+  { name: 'rally', title: 'Rally', cat: 'Web', desc: 'Seed, score and simulate an eight-team tournament bracket.' },
 ];
 
 const CATEGORIES = ['All', 'Games', 'Creative', 'Tools', 'Productivity', 'Learning', 'Reference', 'Web'];
