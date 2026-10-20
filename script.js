@@ -21,6 +21,7 @@ const PROJECTS = [
   { name: 'drum-machine', title: 'Drum Machine', cat: 'Creative', desc: 'A step sequencer with pads, tempo and swing.' },
   { name: 'pixel-art-editor', title: 'Pixel Art Editor', cat: 'Creative', desc: 'Draw on grids from sixteen to sixty-four pixels and export a PNG.' },
   { name: 'metronome', title: 'Metronome', cat: 'Creative', desc: 'A Web Audio metronome with tap tempo, time signatures and beats.' },
+  { name: 'tempo', title: 'Tempo', cat: 'Creative', desc: 'A metronome and guided practice trainer with a dial, tap tempo and speed sessions.' },
   { name: 'gradient-generator', title: 'Gradient Generator', cat: 'Creative', desc: 'Build CSS gradients with several stops and copy the code.' },
   { name: 'particles', title: 'Particles', cat: 'Creative', desc: 'A canvas particle playground with gravity, links and bursts.' },
 
@@ -54,16 +55,21 @@ const PROJECTS = [
   { name: 'quote-generator', title: 'Quote Generator', cat: 'Productivity', desc: 'Sixty quotes with copy and keyboard shortcuts.' },
   { name: 'bookmark-manager', title: 'Bookmark Manager', cat: 'Productivity', desc: 'Save, tag, search and export your bookmarks in the browser.' },
   { name: 'invoice-generator', title: 'Invoice Generator', cat: 'Productivity', desc: 'Build and print a clean invoice with live totals and tax.' },
+  { name: 'ledger', title: 'Ledger', cat: 'Productivity', desc: 'An offline-first accounting workspace with CSV and JSON import and export.' },
+  { name: 'field-notes', title: 'Field Notes', cat: 'Productivity', desc: 'An installable field notebook with glove mode, GPS tags and dictation.' },
 
   { name: 'quiz-app', title: 'Quiz App', cat: 'Learning', desc: 'A hundred questions across four quiz modes.' },
   { name: 'capital-quiz', title: 'Capital Quiz', cat: 'Learning', desc: 'Test your knowledge of world capitals with timers and streaks.' },
 
   { name: 'periodic-table', title: 'Periodic Table', cat: 'Reference', desc: 'All 118 elements with a detail popup for each one.' },
+  { name: 'signal', title: 'Signal', cat: 'Reference', desc: 'A 92-component design system with live specimens and copyable code.' },
 
   { name: 'recipe-website', title: 'Recipe Website', cat: 'Web', desc: 'A responsive recipe site with cards and a shopping list.' },
   { name: 'landing-page', title: 'Landing Page', cat: 'Web', desc: 'A product page with pricing, FAQ and scroll reveals.' },
   { name: 'chat-ui', title: 'Chat UI', cat: 'Web', desc: 'A messenger interface with conversation switching and a bot.' },
   { name: 'dashboard', title: 'Dashboard', cat: 'Web', desc: 'An analytics dashboard with charts, stat cards and a sortable table.' },
+  { name: 'atlas-console', title: 'Atlas Console', cat: 'Web', desc: 'A dark logistics control room with live canvas charts and an incident feed.' },
+  { name: 'contour', title: 'Contour', cat: 'Web', desc: 'An interactive SVG trail atlas with waypoints and elevation profiles.' },
   { name: 'portfolio-page', title: 'Portfolio Page', cat: 'Web', desc: 'A dark editorial portfolio with animated skills and a contact form.' },
 ];
 

@@ -1,10 +1,10 @@
 # Project Gallery
 
-A single page that links all sixty projects, each with a live demo and its own repository.
+A single page that links all sixty-six projects, each with a live demo and its own repository.
 
 ## Features
 
-- All sixty projects in one searchable grid
+- All sixty-six projects in one searchable grid
 - Filter by category: Games, Creative, Tools, Productivity, Learning, Reference and Web
 - Direct links to every live demo and source repository
 - Live result count and an empty state
