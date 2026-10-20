@@ -9,12 +9,20 @@ const PROJECTS = [
   { name: 'game-2048', title: '2048', cat: 'Games', desc: 'Slide and merge tiles until one of them reaches 2048.' },
   { name: 'simon-says', title: 'Simon Says', cat: 'Games', desc: 'Repeat a growing sequence of lights and tones.' },
   { name: 'wordle', title: 'Wordle', cat: 'Games', desc: 'Find a five letter word in six tries with colour clues.' },
+  { name: 'tetris', title: 'Tetris', cat: 'Games', desc: 'All seven pieces, rising levels and a next piece preview.' },
+  { name: 'pong', title: 'Pong', cat: 'Games', desc: 'Retro Pong against a computer paddle on three difficulty levels.' },
+  { name: 'breakout', title: 'Breakout', cat: 'Games', desc: 'Clear every brick across three levels of accelerating play.' },
+  { name: 'connect-four', title: 'Connect Four', cat: 'Games', desc: 'Drop discs to line up four, against a friend or the computer.' },
+  { name: 'sliding-puzzle', title: 'Sliding Puzzle', cat: 'Games', desc: 'The sliding number puzzle on a three by three or four by four board.' },
 
   { name: 'image-carousel', title: 'Image Carousel', cat: 'Creative', desc: 'A touch friendly slideshow with arrows, dots and fullscreen.' },
   { name: 'drawing-app', title: 'Drawing App', cat: 'Creative', desc: 'A freehand canvas with brush sizes, colours and undo.' },
   { name: 'color-palette', title: 'Colour Palette', cat: 'Creative', desc: 'Generate palettes and copy colours in several formats.' },
   { name: 'drum-machine', title: 'Drum Machine', cat: 'Creative', desc: 'A step sequencer with pads, tempo and swing.' },
   { name: 'pixel-art-editor', title: 'Pixel Art Editor', cat: 'Creative', desc: 'Draw on grids from sixteen to sixty-four pixels and export a PNG.' },
+  { name: 'metronome', title: 'Metronome', cat: 'Creative', desc: 'A Web Audio metronome with tap tempo, time signatures and beats.' },
+  { name: 'gradient-generator', title: 'Gradient Generator', cat: 'Creative', desc: 'Build CSS gradients with several stops and copy the code.' },
+  { name: 'particles', title: 'Particles', cat: 'Creative', desc: 'A canvas particle playground with gravity, links and bursts.' },
 
   { name: 'calculator', title: 'Calculator', cat: 'Tools', desc: 'A keyboard friendly calculator with a running history.' },
   { name: 'password-generator', title: 'Password Generator', cat: 'Tools', desc: 'Strong passwords with length, symbol and strength options.' },
@@ -27,6 +35,12 @@ const PROJECTS = [
   { name: 'sorting-visualizer', title: 'Sorting Visualizer', cat: 'Tools', desc: 'Watch four sorting algorithms race on a bar chart.' },
   { name: 'weather-app', title: 'Weather App', cat: 'Tools', desc: 'Current conditions for a thousand locations worldwide.' },
   { name: 'markdown-preview', title: 'Markdown Preview', cat: 'Tools', desc: 'Write markdown and see the rendered result as you type.' },
+  { name: 'word-counter', title: 'Word Counter', cat: 'Tools', desc: 'Live word, character and reading time stats plus word frequency.' },
+  { name: 'json-formatter', title: 'JSON Formatter', cat: 'Tools', desc: 'Format, minify and validate JSON with a collapsible tree view.' },
+  { name: 'base64-encoder', title: 'Base64 Encoder', cat: 'Tools', desc: 'Encode and decode Base64 text with full Unicode support.' },
+  { name: 'tip-calculator', title: 'Tip Calculator', cat: 'Tools', desc: 'Split a bill, pick a tip and round the total, receipt included.' },
+  { name: 'age-calculator', title: 'Age Calculator', cat: 'Tools', desc: 'Your exact age in years, months and days, and the next birthday.' },
+  { name: 'decision-wheel', title: 'Decision Wheel', cat: 'Tools', desc: 'Spin a colourful wheel to settle any choice.' },
 
   { name: 'todo-list', title: 'To-Do List', cat: 'Productivity', desc: 'Tasks with filters, priorities and local storage.' },
   { name: 'notes-app', title: 'Notes App', cat: 'Productivity', desc: 'Quick notes with search, editing and autosave.' },
@@ -38,13 +52,19 @@ const PROJECTS = [
   { name: 'habit-tracker', title: 'Habit Tracker', cat: 'Productivity', desc: 'Weekly habits with streaks and progress bars.' },
   { name: 'calendar', title: 'Calendar', cat: 'Productivity', desc: 'A month planner with events saved in the browser.' },
   { name: 'quote-generator', title: 'Quote Generator', cat: 'Productivity', desc: 'Sixty quotes with copy and keyboard shortcuts.' },
+  { name: 'bookmark-manager', title: 'Bookmark Manager', cat: 'Productivity', desc: 'Save, tag, search and export your bookmarks in the browser.' },
+  { name: 'invoice-generator', title: 'Invoice Generator', cat: 'Productivity', desc: 'Build and print a clean invoice with live totals and tax.' },
 
   { name: 'quiz-app', title: 'Quiz App', cat: 'Learning', desc: 'A hundred questions across four quiz modes.' },
+  { name: 'capital-quiz', title: 'Capital Quiz', cat: 'Learning', desc: 'Test your knowledge of world capitals with timers and streaks.' },
 
   { name: 'periodic-table', title: 'Periodic Table', cat: 'Reference', desc: 'All 118 elements with a detail popup for each one.' },
 
   { name: 'recipe-website', title: 'Recipe Website', cat: 'Web', desc: 'A responsive recipe site with cards and a shopping list.' },
   { name: 'landing-page', title: 'Landing Page', cat: 'Web', desc: 'A product page with pricing, FAQ and scroll reveals.' },
+  { name: 'chat-ui', title: 'Chat UI', cat: 'Web', desc: 'A messenger interface with conversation switching and a bot.' },
+  { name: 'dashboard', title: 'Dashboard', cat: 'Web', desc: 'An analytics dashboard with charts, stat cards and a sortable table.' },
+  { name: 'portfolio-page', title: 'Portfolio Page', cat: 'Web', desc: 'A dark editorial portfolio with animated skills and a contact form.' },
 ];
 
 const CATEGORIES = ['All', 'Games', 'Creative', 'Tools', 'Productivity', 'Learning', 'Reference', 'Web'];
