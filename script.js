@@ -85,6 +85,27 @@ const PROJECTS = [
   { name: 'portfolio-page', title: 'Portfolio Page', cat: 'Web', desc: 'A dark editorial portfolio with animated skills and a contact form.' },
   { name: 'transit-lab', title: 'Transit Lab', cat: 'Web', desc: 'Plan metro journeys on a live SVG network with Dijkstra routing and simulated trains.' },
   { name: 'rally', title: 'Rally', cat: 'Web', desc: 'Seed, score and simulate an eight-team tournament bracket.' },
+
+  { name: 'palimpsest', title: 'Palimpsest', cat: 'Productivity', desc: 'A parchment writing archive with layered revisions, marginalia, comparison and text export.' },
+  { name: 'vending', title: 'Vending', cat: 'Creative', desc: 'A bright retro vending machine with coins, keypad purchases, restocking and a sales tape.' },
+  { name: 'shortwave', title: 'Shortwave', cat: 'Creative', desc: 'Tune a 1970s receiver through eight stations with generated static, presets and a reception log.' },
+  { name: 'orbital', title: 'Orbital', cat: 'Tools', desc: 'A flight-dynamics desk for orbit parameters, launch windows, tracked objects and pass schedules.' },
+  { name: 'marigold', title: 'Marigold', cat: 'Productivity', desc: 'A 1950s diner order pad with seat tabs, kitchen tickets, tips and a printed receipt.' },
+  { name: 'herbarium', title: 'Herbarium', cat: 'Reference', desc: 'A Victorian botanical cabinet with specimen plates, family filters and editable field notes.' },
+  { name: 'splitflap', title: 'Splitflap', cat: 'Creative', desc: 'An amber airport board with mechanical letter flips, delays and live departure statuses.' },
+  { name: 'lost-sounds', title: 'Lost Sounds', cat: 'Creative', desc: 'A black-and-gold sound museum with synthesised exhibits, a moving waveform and favourites.' },
+  { name: 'werkstatt', title: 'Werkstatt', cat: 'Creative', desc: 'A Bauhaus poster studio with geometric presets, ink palettes, saved plates and SVG export.' },
+  { name: 'sunday', title: 'Sunday', cat: 'Productivity', desc: 'A pastel weekly meal planner with a recipe bank, servings and an automatic grocery list.' },
+  { name: 'riso', title: 'Riso', cat: 'Creative', desc: 'A fluorescent risograph zine press with ink pairings, editable pages and print preview.' },
+  { name: 'telegraph', title: 'Telegraph', cat: 'Creative', desc: 'A working Morse desk with audible keying, a moving paper tape, speed control and a log.' },
+  { name: 'cartographer', title: 'Cartographer', cat: 'Reference', desc: 'An antique island chart with clickable regions, waypoints and a saved expedition log.' },
+  { name: 'sprint', title: 'Sprint', cat: 'Productivity', desc: 'A typewriter writing sprint with timed sessions, prompts, live WPM and saved history.' },
+  { name: 'crate', title: 'Crate', cat: 'Productivity', desc: 'A 1970s vinyl crate with sleeve art, search, genres, ratings and detailed tracklists.' },
+  { name: 'contact-sheet', title: 'Contact Sheet', cat: 'Creative', desc: 'A monochrome proof sheet with twenty-four frames, a loupe, ratings and captions.' },
+  { name: 'mailroom', title: 'Mailroom', cat: 'Productivity', desc: 'A 1990s desktop email client with folders, unread counts, compose, reply and a taskbar.' },
+  { name: 'broadsheet', title: 'Broadsheet', cat: 'Web', desc: 'A daily newspaper front page with a ticker, filters, article reader and saved clippings.' },
+  { name: 'dollhouse', title: 'Dollhouse', cat: 'Creative', desc: 'A pastel isometric house with six rooms, decorating palettes, furniture and night mode.' },
+  { name: 'terrarium', title: 'Terrarium', cat: 'Creative', desc: 'A glass terrarium simulator with misting, sunlight, humidity, plant health and a day count.' },
 ];
 
 const CATEGORIES = ['All', 'Games', 'Creative', 'Tools', 'Productivity', 'Learning', 'Reference', 'Web'];
